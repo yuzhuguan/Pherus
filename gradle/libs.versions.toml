@@ -1,0 +1,88 @@
+[versions]
+accompanist-pager = "0.22.0-rc"
+accompanist-permissions = "0.25.1"
+accompanist-systemuicontroller = "0.32.0"
+agp = "8.1.2"
+calendar = "1.2.0"
+kotlinx-coroutines-core = "1.7.3"
+list = "1.2.0"
+constraintlayout-compose = "1.0.1"
+core = "1.2.0"
+core-splashscreen = "1.0.1"
+firebase-messaging-directboot = "23.3.0"
+google-services = "4.4.0"
+hilt-navigation-compose = "1.0.0"
+kotlinx-coroutines-play-services = "1.7.3"
+kotlinx-serialization-json = "1.6.0"
+option = "1.2.0"
+org-jetbrains-kotlin-android = "1.8.10"
+core-ktx = "1.12.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+lifecycle-runtime-ktx = "2.6.2"
+activity-compose = "1.8.0"
+compose-bom = "2023.10.01"
+coil-compose = "2.4.0"
+firebase-bom = "32.4.0"
+material-icons-extended = "1.5.4"
+play-services-auth = "20.7.0"
+play-services-location = "21.0.1"
+preference-ktx = "1.2.1"
+work-runtime-ktx = "2.8.1"
+
+[libraries]
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist-pager" }
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist-permissions" }
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist-systemuicontroller" }
+androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayout-compose" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "core-splashscreen" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle-runtime-ktx" }
+androidx-preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preference-ktx" }
+androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "work-runtime-ktx" }
+calendar = { module = "com.maxkeppeler.sheets-compose-dialogs:calendar", version.ref = "calendar" }
+clock = { module = "com.maxkeppeler.sheets-compose-dialogs:clock", version.ref = "calendar" }
+jetbrains-kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
+list = { module = "com.maxkeppeler.sheets-compose-dialogs:list", version.ref = "list" }
+core = { module = "com.maxkeppeler.sheets-compose-dialogs:core", version.ref = "core" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+firebase-messaging-directboot = { module = "com.google.firebase:firebase-messaging-directboot", version.ref = "firebase-messaging-directboot" }
+google-services = { module = "com.google.gms:google-services", version.ref = "google-services" }
+input = { module = "com.maxkeppeler.sheets-compose-dialogs:input", version.ref = "calendar" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+kotlinx-coroutines-play-services = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "kotlinx-coroutines-play-services" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+option = { module = "com.maxkeppeler.sheets-compose-dialogs:option", version.ref = "option" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "play-services-auth" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "play-services-location" }
+state = { module = "com.maxkeppeler.sheets-compose-dialogs:state", version.ref = "calendar" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+material = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "material-icons-extended" }
+coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil-compose" }
+
+firebase-bom = { group = "com.google.firebase", name ="firebase-bom", version.ref = "firebase-bom"}
+firebase-auth-ktx = { group = "com.google.firebase", name ="firebase-auth-ktx"}
+firebase-storage-ktx = { group = "com.google.firebase", name ="firebase-storage-ktx"}
+firebase-messaging-ktx = { group = "com.google.firebase", name ="firebase-messaging-ktx"}
+firebase-database-ktx = { group = "com.google.firebase", name ="firebase-database-ktx"}
+firebase-config-ktx = { group = "com.google.firebase", name ="firebase-config-ktx"}
+firebase-analytics-ktx = { group = "com.google.firebase", name ="firebase-analytics-ktx"}
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+
+[bundles]
+

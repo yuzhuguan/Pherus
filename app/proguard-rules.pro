@@ -1,0 +1,2 @@
+-keep class metospherus.app.database.FirebaseDatabaseLocal
+-keep class metospherus.app.database.LocalDatabase
